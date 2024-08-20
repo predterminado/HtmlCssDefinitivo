@@ -11,6 +11,12 @@
     font-size: 25px;
     gap: 30px;
     height: 40px;
+    border: 3px solid gray;
+}
+#contenedor-nav:hover {
+    height: 50px;
+    transition: 0.7s;
+    box-shadow: 3px 2px 77px 25px rgba(0,0,0,0.41);
 }
 #contenedor-nav a {
     text-decoration: none;
@@ -36,4 +42,11 @@
 }
 li {
     list-style: none;
+}
+#lista-scroll-input {
+    background: lightblue;
+    border-radius: 30px;
+    height: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
