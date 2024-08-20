@@ -12,6 +12,7 @@
     gap: 30px;
     height: 40px;
     border: 3px solid gray;
+    font-family:'Times New Roman', Times, serif;
 }
 #contenedor-nav:hover {
     height: 50px;
