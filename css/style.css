@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
 }
 #contenedor-nav {
     display: flex;
@@ -43,6 +47,7 @@
 }
 li {
     list-style: none;
+    font-size: 2.2rem;
 }
 #lista-scroll-input {
     background: lightblue;
@@ -63,3 +68,85 @@ li {
     0 0 100px #008cff;
     transition: 1s;
 }
+.secimg {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #008cff;
+    text-align: center;
+    min-height: 200px;
+    min-width: 400px;
+    max-width: 700px;
+}
+#challenge {
+    background-image: linear-gradient(45deg,purple,black);
+    grid-template-columns: 1fr;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+#cont {
+    width: 400px;
+    font-size: 2rem;
+    background-image: linear-gradient(transparent,white,gray);
+    border: 3px solid black ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+#cont img {
+    border-radius: 40px;
+}
+#absolute {
+    height: 30px;
+    width: 150px;
+    background-color: aquamarine;
+    font-size: 2rem;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff, 0 0 50px #ffffff,
+    0 0 100px #ffffff;
+    position: absolute;
+    bottom: 185px;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 200px 200px 200px 200px 100px;
+}
+.Head {
+    grid-column: 1/6;
+    background-color: rgb(235, 211, 248);
+}
+.contenedor-ul {
+    display: grid;
+    align-items: center;
+}
+.ull {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    margin: 12px;
+}
+.ull a {
+    text-decoration: none;
+}
+.Main {
+    grid-area: 2/2/6/6;
+    background-color: rgb(173, 73, 225);
+}
+.costado {
+    grid-row: 2/6;
+    background-color: rgb(122, 28, 172);
+}
+.Foot {
+    grid-column: 1/6;
+    background-color: rgb(46, 7, 63);
+}
+.h22 {
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    text-shadow: 5px 0px 10px black;
+}
+
