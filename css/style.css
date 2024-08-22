@@ -131,6 +131,15 @@ li {
 .ull a {
     text-decoration: none;
 }
+.ee {
+    order: 3;
+}
+.ii {
+    order: 2;
+}
+.oo {
+    order: 1;
+}
 .Main {
     grid-area: 2/2/6/6;
     background-color: rgb(173, 73, 225);
@@ -138,6 +147,14 @@ li {
 .costado {
     grid-row: 2/6;
     background-color: rgb(122, 28, 172);
+    font-size: 2rem;
+}
+.div-1 {
+    height: 180px;
+    width: 80%;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 .Foot {
     grid-column: 1/6;
@@ -149,4 +166,30 @@ li {
     font-family: "Edu VIC WA NT Beginner", cursive;
     text-shadow: 5px 0px 10px black;
 }
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box-1 {
+    background-color: #008cff;
+}
+.box-2 {
+    background-color: aquamarine;
+}
+.box-3 {
+    background-color: chocolate;
+}
+.box-4 {
+background-color: chartreuse;
+}
+.box-5 {
+background-color: deeppink;
+}
+
 
